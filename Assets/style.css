@@ -1,0 +1,129 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    font-family: arial,sans-serif;
+}
+/* the CSS the header where the google logo search bar and google account displays */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    padding: 36px 0 0 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+header .google-logos-wrapper{
+   display: flex;
+   flex-direction: row;
+    align-items: center;
+}
+header .search-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
+    border-radius: 50px;
+    padding-left: 12px;
+    width: 668px;
+    height: 42px;
+    font-size: 14px;
+    margin-left: 28px;
+}
+header .search-input:hover{
+    box-shadow: 2px 2px 5px 5px rgba(64, 60, 67, .16);
+}
+header .search-input #search{
+    width: 568px;
+    height: 32px;
+    border-left: none;
+    border-right: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+}
+header .group-icons{
+    display: flex;
+    flex-direction: row;
+}
+header .icons{
+    margin: 0 4px 0;
+    align-items: center;
+}
+header #logo{
+    max-width: 92px;
+    height: 30px;
+}
+header .group-icons svg, .group-icons img, .google-account-wrapper svg{
+    max-width: 24px;
+    height: 24px;
+}
+header .google-account-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .google-account-wrapper img{
+    max-width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    opacity: 2;
+}
+header .google-account{
+    margin: 0 8px 0;
+    align-items: center;
+}
+/* the CSS main section where everything displayed apart from header(google logo search bar and google account displays) */
+
+main{
+    position: relative;
+    top: 112px;
+    left: 0;
+    right: 0;
+}
+/* news , images videos and more categories */
+.categories-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 518px 0 64px;
+    padding-bottom: 6px;
+    font-size: 14.8px;
+}
+.categories-section .anivm{
+    display: flex;
+    flex-direction: row;
+}
+.categories{
+    
+    margin: 0 12px 0;
+}
+.categories-section a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(67, 66, 66);
+}
+.categories-section .anivm svg{
+    max-width: 18px;
+    height: 18px;
+}
+.categories-section > hr{
+   /* color: #ccc; */
+}
+/* C. Ronaldo headlines */
+.about_headline svg{
+    max-width: 24px;
+    height: 24px;
+}

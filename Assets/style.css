@@ -1,33 +1,37 @@
-*, html{
+*,
+html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     max-width: 100%;
-    font-family: arial,sans-serif;
+    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+    background-color: #fff;
+    color: #202124;
 }
+
 /* the CSS the header where the google logo search bar and google account displays */
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 90%;
-    margin: auto;
-    padding: 36px 0 0 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: white;
+    max-width: 96%;
+    padding-top: 26px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #202124;
 }
-header .google-logos-wrapper{
-   display: flex;
-   flex-direction: row;
+
+header .google-logos-wrapper {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
-header .search-input{
+
+header .search-input {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,10 +44,12 @@ header .search-input{
     font-size: 14px;
     margin-left: 28px;
 }
-header .search-input:hover{
+
+header .search-input:hover {
     box-shadow: 2px 2px 5px 5px rgba(64, 60, 67, .16);
 }
-header .search-input #search{
+
+header .search-input #search {
     width: 568px;
     height: 32px;
     border-left: none;
@@ -52,78 +58,189 @@ header .search-input #search{
     border-bottom: none;
     outline: none;
 }
-header .group-icons{
+
+header .group-icons {
     display: flex;
     flex-direction: row;
 }
-header .icons{
+
+header .icons {
     margin: 0 4px 0;
     align-items: center;
 }
-header #logo{
+
+header #logo {
     max-width: 92px;
     height: 30px;
 }
-header .group-icons svg, .group-icons img, .google-account-wrapper svg{
+
+header .group-icons svg,
+.group-icons img,
+.google-account-wrapper svg {
     max-width: 24px;
     height: 24px;
 }
-header .google-account-wrapper{
+
+header .google-account-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-header .google-account-wrapper img{
+
+header .google-account-wrapper img {
     max-width: 34px;
     height: 34px;
     border-radius: 50%;
     opacity: 2;
 }
-header .google-account{
+
+header .google-account {
     margin: 0 8px 0;
     align-items: center;
 }
+
 /* the CSS main section where everything displayed apart from header(google logo search bar and google account displays) */
 
-main{
-    position: relative;
-    top: 112px;
-    left: 0;
-    right: 0;
+main {
+    margin-top: 34px;
 }
+
 /* news , images videos and more categories */
-.categories-section{
+.categories-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 518px 0 64px;
-    padding-bottom: 6px;
-    font-size: 14.8px;
+    max-width: 82%;
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding-right: 438px;
+    padding-left: 32px;
 }
-.categories-section .anivm{
+
+.categories-section .anivm {
     display: flex;
     flex-direction: row;
 }
-.categories{
-    
-    margin: 0 12px 0;
+
+.categories {
+    margin-right: 24px;
 }
-.categories-section a{
+
+.categories-section a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgb(67, 66, 66);
+    color: #5F6368;
 }
-.categories-section .anivm svg{
-    max-width: 18px;
-    height: 18px;
+
+.categories-section .anivm svg {
+    max-width: 16px;
+    height: 16px;
 }
-.categories-section > hr{
-   /* color: #ccc; */
+
+.categories span {
+    margin-left: 2px;
 }
-/* C. Ronaldo headlines */
-.about_headline svg{
-    max-width: 24px;
-    height: 24px;
+
+.anivm .all {
+    border-bottom: 2px solid #1a73e8;
 }
+
+.anivm #all {
+    color: #1a73e8;
+}
+
+.categories-section-hr {
+    max-width: 100%;
+    height: 0.5px;
+    background-color: #ccc;
+}
+
+/* About 168,000,000 results */
+.about-result {
+    color: #5F6368;
+    font-size: 0.9rem;
+    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+    max-width: 82%;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 12px auto;
+}
+
+.about-result #result-stats {
+    padding-left: 32px;
+}
+
+/* C. Ronaldo Title section; contents his name and origin */
+.Title-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 82%;
+    margin: 28px auto 12px;
+    padding-left: 32px;
+}
+
+.Title-section .name h1 {
+    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.Title-section .origin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Title-section .origin span {
+    color: #5F6368;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Title-section .name svg {
+    max-width: 16px;
+    height: 16px;
+}
+
+.Title-section .about-btn {
+    margin-left: 32px;
+}
+
+.Title-section .about-btn button {
+    background-color: #E2EEFF;
+    border: none;
+    padding: 11px 19px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 14px 0 6px 8px;
+}
+
+.Title-section .about-btn button a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.Title-section .about-btn button:nth-child(1) {
+    border: 1px solid #1a73e8;
+}
+
+.Title-section .about-btn button:active {
+    border: 1px solid #1a73e8;
+}
+
+/* cristiano Ronaldo attributes section styling*********** */
+.attribute-section {
+    max-width: 82%;
+    margin: 0 auto;
+    padding-left: 32px;
+}
+
+/* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */

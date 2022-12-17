@@ -239,8 +239,32 @@ main {
     max-width: 82%;
     margin: 0 auto;
     padding-left: 32px;
+    background: linear-gradient(to top, #eef5ff 50%,transparent);
 }
-
+.attribute-section .gallery{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.attribute-section .gtpic{
+    display: flex;
+    flex-direction: column;
+}
+.attribute-section .fpic img{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-right: 1px;
+}
+.attribute-section .gtpic img:nth-child(1){
+    border-top-right-radius: 15px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+.attribute-section .gtpic img:nth-child(2){
+    border-bottom-right-radius: 15px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
 /* overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; */

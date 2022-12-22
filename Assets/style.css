@@ -413,10 +413,39 @@ main {
 }
 
 /* top stories of cristiano Ronaldo----------.......********** */
-.crist-top-stories-section {}
+.crist-top-stories-section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: arial, sans-serif;
+    color: #202124;
+    font-size: 14px;
+    margin: 40px 4px 0;
+}
 
-.crist-top-stories {}
+.crist-top-stories-section .crist-top-stories {}
 
-.crist-top-stories-section .news-about-crist {}
+.crist-top-stories-section .news-about-crist {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
 
-.current-info-about-crist {}
+.crist-top-stories-section .news-about-crist h1 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.crist-top-stories-section .current-info-about-crist {
+    border-left: 1px solid #dadce0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 44px;
+}
+
+.current-info-about-crist h1 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 500;
+}

@@ -208,6 +208,7 @@ main {
 
 .Title-section .about-btn {
     margin-left: 32px;
+    display: flex;
 }
 
 .Title-section .about-btn button {
@@ -236,15 +237,12 @@ main {
 
 /* cristiano Ronaldo attributes section styling*********** */
 .attribute-section {
-    /* max-width: 82%; */
-    margin: 0 auto;
-    /* padding-left: 32px; */
+    max-width: 100%;
     background: linear-gradient(to top, #eef5ff 50%, transparent);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 2px;
 }
 
 .attribute-section .gallery {
@@ -260,30 +258,30 @@ main {
 .attribute-section .fpic img {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    padding-right: 1px;
+    margin-right: 1px;
 }
 
 .attribute-section .gtpic img:nth-child(1) {
     border-top-right-radius: 15px;
-    padding-left: 1px;
-    padding-bottom: 1px;
+    margin-left: 1px;
+    margin-bottom: 1.6px;
 }
 
 .attribute-section .gtpic img:nth-child(2) {
-    border-radius: 15px;
-    padding-left: 1px;
-    padding-top: 1px;
+    border-bottom-right-radius: 15px;
+    margin-left: 1px;
+    margin-top: 1.6px;
 }
 
 .attribute-section .sky-sport {
-    max-width: 248px;
-    height: auto;
-    margin-left: 16px;
-    margin-bottom: 2px;
+    max-width: 238.41px;
+    height: 100%;
+    margin-left: 12px;
     background-color: #fff;
     font-size: 12px;
     font-weight: 400;
     border-radius: 15px;
+    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
 }
 
 .attribute-section .sky-sport a {
@@ -294,11 +292,7 @@ main {
 }
 
 .attribute-section .sky-sport .text-wrapper {
-    padding: 12px;
-}
-
-.attribute-section .sky-sport .utubetext {
-    line-height: 1rem;
+    padding: 14px;
 }
 
 .attribute-section .sky-sport .img-wrapper img {
@@ -309,24 +303,32 @@ main {
 .attribute-section .sky-sport a p:nth-child(2) {
     font-size: 14px;
     color: #202124;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 1.6rem;
+    line-height: 20px;
+    margin-top: 18px;
 }
 
 .attribute-section .sky-sport a p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #4d5156;
-    text-align: left;
-    line-height: 1.05rem;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+
+.attribute-section .sky-sport a p:nth-child(4) {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 26px;
+    font-family: arial, sans-serif;
 }
 
 .attribute-section .attribute {
     display: flex;
     flex-direction: column;
-    max-width: 248px;
-    height: auto;
-    margin-left: 8px;
+    height: 100%;
+    margin-left: 12px;
 }
 
 .attribute-section .attribute .age-csport {
@@ -338,6 +340,11 @@ main {
     background-color: #E2EEFF;
     border-radius: 15px;
     padding: 12px;
+    max-width: 113.19px;
+    height: 139.05px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .attribute .age-csport .current_team {
@@ -348,47 +355,68 @@ main {
     margin-left: 2px;
 }
 
-.attribute .age-csport .age-team h3 {
+.attribute .age-csport .age-team h1 {
+    font-weight: 500;
     color: #040C28;
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 14px;
 }
 
 .attribute .age-csport .age-team p {
-    padding-top: 32px;
-    color: #2A4165;
     font-weight: 400;
-    font-size: 0.9rem;
+    color: #2A4165;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .attribute .crist-instahandle {
+    text-decoration: none;
+    font-size: 14px;
     background-color: #fff;
     border-radius: 15px;
-    margin-top: 18px;
-    height: auto;
-    padding: 8px;
+    max-width: 238.39px;
+    height: 139.06px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Google Sans, arial, sans-serif;
+    padding: 12px;
 }
 
-.attribute .crist-instahandle a {
-    text-decoration: none;
-    color: #202124;
-    font-size: 12px;
-
-}
-
-.attribute .crist-instahandle span {
-    line-height: 1rem;
+.attribute .instahandle-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: #70757a;
+    font-family: arial, sans-serif;
     font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.attribute .crist-instahandle svg {
+    margin-left: auto;
 }
 
 .attribute .crist-instahandle .instaheadline p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    line-height: 2.8rem;
+    font-weight: 400;
+    line-height: 20px;
 }
 
-.attribute .crist-instahandle .fofopo p {
-    line-height: 1.1rem;
+.attribute .crist-instahandle .fofopo {
+    color: #4d5156;
+    font-size: 12px;
+    line-height: 18px;
 }
+
+/* top stories of cristiano Ronaldo----------.......********** */
+.crist-top-stories-section {}
+
+.crist-top-stories {}
+
+.crist-top-stories-section .news-about-crist {}
+
+.current-info-about-crist {}

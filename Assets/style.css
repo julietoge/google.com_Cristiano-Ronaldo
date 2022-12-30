@@ -372,6 +372,7 @@ main {
     text-decoration: none;
     font-size: 14px;
     background-color: #fff;
+    color: #202124;
     border-radius: 15px;
     max-width: 238.39px;
     height: 139.06px;
@@ -417,7 +418,7 @@ main {
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     font-family: arial, sans-serif;
     color: #202124;
     font-size: 14px;
@@ -426,15 +427,16 @@ main {
 
 .crist-top-stories-section .crist-top-stories {}
 
-.crist-top-stories-section .news-about-crist {
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
-.crist-top-stories-section .news-about-crist h1 {
+.crist-top-stories-section .crist-top-stories h1 {
     font-size: 22px;
     line-height: 24px;
     font-weight: 500;
+}
+
+.crist-top-stories-section .news-about-crist {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    max-width: 60%;
 }
 
 .crist-top-stories-section .current-info-about-crist {
@@ -442,10 +444,338 @@ main {
     padding-left: 20px;
     padding-bottom: 20px;
     margin-left: 44px;
+    color: #202124;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    max-width: 30%;
 }
 
-.current-info-about-crist h1 {
-    font-size: 22px;
+.current-info-about-crist .official_web {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    border: 1px solid #dadce0;
+    border-radius: 16px;
+    max-width: 187.17px;
+    padding: 8px 12px;
+}
+
+.current-info-about-crist .official_web a {
+    text-decoration: none;
+    color: #202124;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.current-info-about-crist .official_web a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .official_web a img {
+    margin-right: 8px;
+}
+
+.current-info-about-crist .official_wikipedia {
+    line-height: 1.58;
+    color: #4d5156;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .official_wikipedia a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .official_wikipedia a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .born {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .born span {
+    color: #4d5156;
+}
+
+.current-info-about-crist .born a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .born a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .team {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .team a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .team a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .team span {
+    color: #4d5156;
+}
+
+.current-info-about-crist .children {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .children a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .children a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .Dates_joined {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .Dates_joined span {
+    color: #4d5156;
+}
+
+.current-info-about-crist .Dates_joined a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .Dates_joined a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .Height {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .Height span {
+    color: #4d5156;
+}
+
+.current-info-about-crist .salary-GBP-2023 {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .salary-GBP-2023 span {
+    color: #4d5156;
+}
+
+.current-info-about-crist .Awards {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .Awards a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .Awards a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .Partner {
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+.current-info-about-crist .Partner a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.current-info-about-crist .Partner a:hover {
+    text-decoration: underline;
+}
+
+.current-info-about-crist .Partner span {
+    color: #4d5156;
+}
+
+.current-info-about-crist .clafebk {
+    line-height: 1.58;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current-info-about-crist .clafebk a {
+    text-decoration: none;
+    color: #4d5156;
+}
+
+.current-info-about-crist .clafebk a:nth-child(1) {
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    padding: 6px 16px;
+    align-self: flex-start;
+}
+
+.current-info-about-crist .clafebk a .claims-panel {
+    display: flex;
+    align-items: center;
+}
+
+.clafebk a .claims-panel-text {
+    margin-left: 8px;
+}
+
+.current-info-about-crist .clafebk a:nth-child(2) {
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+.current-info-about-crist .social-connec-Profiles {
+    line-height: 1.58;
+    margin-bottom: 16px;
+    border-top: 1px solid #dadce0;
+    margin-top: 16px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-info-about-crist .social-connec-Profiles h3 {
+    font-size: 18.8px;
+    line-height: 24px;
+    color: #202124;
+    font-weight: 500;
+}
+
+.social-connec-Profiles .social-connec-Profiles-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.social-connec-Profiles .social-connec-Profiles-links a {
+    text-decoration: none;
+    color: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-connec-Profiles .social-connec-Profiles-links a:hover {
+    text-decoration: underline;
+}
+
+.social-connec-Profiles-links a img {
+    border-radius: 4px;
+}
+
+.current-info-about-crist .statistics {
+    border-top: 1px solid #dadce0;
+    line-height: 1.58;
+    margin-bottom: 12px;
+    padding-top: 28px;
+}
+
+.current-info-about-crist .statistics-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-info-about-crist .statistics-heading a {
+    text-decoration: none;
+    color: #202124;
+}
+
+.statistics-heading a h3 {
+    font-size: 18.8px;
     line-height: 24px;
     font-weight: 500;
+    margin-bottom: 18.8px;
+}
+
+.statistics-heading a:nth-child(2) {
+    margin-bottom: 4px;
+}
+
+.statistics-table {
+    max-width: 100%;
+}
+
+.statistics-table tr th {
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+    padding: 8px 48px 8px 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.statistics-table tr td {
+    padding: 8px 48px 8px 0;
+    border-bottom: 1px solid #dadce0;
+}
+
+.statistics-table tr td a {
+    text-decoration: none;
+    color: #202124;
+}
+
+.statistics-table tr td a:hover {
+    text-decoration: underline;
+    text-decoration-color: #1a0dab;
+}
+
+.statistics-table tr td a p {
+    color: #70757a;
+    font-size: 12px;
+}
+
+.current-info-about-crist .people-searchalso {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-info-about-crist .people-searchalso h3 {
+    font-size: 18.8px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 18.8px;
+}
+
+.current-info-about-crist .people-searchalso-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.current-info-about-crist .people-searchalso-content a {
+    text-decoration: none;
+    color: #202124;
+}
+
+.current-info-about-crist .people-searchalso-content a img {
+    border-radius: 8px;
+}
+
+.current-info-about-crist .people-searchalso .see-more {
+    text-align: center;
+    margin-top: 18px;
+    background-color: #dadce0;
 }

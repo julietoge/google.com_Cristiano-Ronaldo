@@ -422,10 +422,8 @@ main {
     font-family: arial, sans-serif;
     color: #202124;
     font-size: 14px;
-    margin: 40px 4px 0;
+    margin: 40px 4px 14px;
 }
-
-.crist-top-stories-section .crist-top-stories {}
 
 .crist-top-stories-section .crist-top-stories h1 {
     font-size: 22px;
@@ -433,12 +431,126 @@ main {
     font-weight: 500;
 }
 
+/* top stories of cristiano Ronaldo left side */
 .crist-top-stories-section .news-about-crist {
     padding-left: 20px;
     padding-bottom: 20px;
-    max-width: 60%;
+    max-width: 50%;
+}
+.news-about-crist .News-about-CristianoRonaldopele{
+    display: flex;
+    flex-direction: column;
+}
+.news-about-crist .News-about-CristianoRonaldopele>a{
+   text-decoration: none;
+   color: #4d5156;
+   font-size: 18px;
+   font-weight: 400;
+   padding: 8px 0;
+   margin: 14px 0;
+   border-bottom: 1px solid #dadce0;
+}
+.news-about-crist .News-about-CristianoRonaldopele>a:hover{
+    text-decoration: underline;
+}
+.news-about-crist .News-about-CristianoRonaldopele>a i{
+    margin-left: 4px;
+}
+.news-about-crist .CristianoRonaldopele-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-about-crist .CristianoRonaldopele-content>a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1a0dab;
+    margin-right: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #dadce0;
+}
+.CristianoRonaldopele-content>a .daily-post-img-wrapper img{
+    border-radius: 8px;
+}
+.news-about-crist .CristianoRonaldopele-content>a p:nth-child(3):hover{
+    text-decoration: underline;
+}
+.news-about-crist .CristianoRonaldopele-content>a p:nth-child(4){
+    font-size: 14px;
+    color: #70757a;
+    line-height: 16px;
+}
+.news-about-crist .masky{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-about-crist .masky a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1a0dab;
+}
+.news-about-crist .masky .masky-text-i p:nth-child(2):hover{
+    text-decoration: underline;
+}
+.news-about-crist .masky .masky-text-i p:nth-child(3){
+    font-size: 14px;
+    color: #70757a;
+    line-height: 16px;
+}
+.news-about-crist .masky a:nth-child(2){
+    border-top: 1px solid #dadce0;
+    padding-top: 16px;
+}
+.news-about-crist .masky .pele-wrapper img, .marca-img-wrapper img{
+    border-radius: 8px;
+}
+.news-about-crist .Eurosport-express{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-about-crist .Eurosport-express a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1a0dab;
+}
+.news-about-crist .Eurosport-express .marca-icon-wrapper{
+    display: flex;
+    align-items: center;
+} 
+.Eurosport-express .marca-icon-wrapper{
+    color: #202124;
+    font-size: 12.8px;
+}
+.news-about-crist .Eurosport-express .masky-text-i p:nth-child(2):hover{
+    text-decoration: underline;
+}
+.news-about-crist .Eurosport-express .masky-text-i p:nth-child(3){
+    font-size: 14px;
+    color: #70757a;
+    line-height: 16px;
+}
+.news-about-crist .Eurosport-express a:nth-child(2){
+    border-left: 1px solid #dadce0;
+    padding-left: 16px;
+    margin-left: 16px;
+}
+.news-about-crist .Eurosport-express .pele-wrapper img, .marca-img-wrapper img{
+    border-radius: 8px;
 }
 
+/* top stories of cristiano Ronaldo right side */
 .crist-top-stories-section .current-info-about-crist {
     border-left: 1px solid #dadce0;
     padding-left: 20px;
@@ -777,5 +889,18 @@ main {
 .current-info-about-crist .people-searchalso .see-more {
     text-align: center;
     margin-top: 18px;
+    background-color: #f1f3f4;
+    text-decoration: none;
+    color: #202124;
+    border-radius: 18px;
+    padding: 12px 0;
+    margin-top: 24px;
+}
+
+.current-info-about-crist .people-searchalso .see-more:hover {
     background-color: #dadce0;
+}
+
+.people-searchalso .see-more i {
+    margin-left: 4px;
 }

@@ -1,906 +1,963 @@
 *,
 html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    max-width: 100%;
-    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
-    background-color: #fff;
-    color: #202124;
+  max-width: 100%;
+  font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+  background-color: #fff;
+  color: #202124;
 }
 
 /* the CSS the header where the google logo search bar and google account displays */
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 96%;
-    padding-top: 26px;
-    margin: 0 auto;
-    background-color: #fff;
-    color: #202124;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 96%;
+  padding-top: 26px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #202124;
 }
 
 header .google-logos-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 header .search-input {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
-    border-radius: 50px;
-    padding-left: 12px;
-    width: 668px;
-    height: 42px;
-    font-size: 14px;
-    margin-left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  border-radius: 50px;
+  padding-left: 12px;
+  width: 668px;
+  height: 42px;
+  font-size: 14px;
+  margin-left: 28px;
 }
 
 header .search-input:hover {
-    box-shadow: 2px 2px 5px 5px rgba(64, 60, 67, .16);
+  box-shadow: 2px 2px 5px 5px rgba(64, 60, 67, 0.16);
 }
 
 header .search-input #search {
-    width: 568px;
-    height: 32px;
-    border-left: none;
-    border-right: 1px solid #ccc;
-    border-top: none;
-    border-bottom: none;
-    outline: none;
+  width: 568px;
+  height: 32px;
+  border-left: none;
+  border-right: 1px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+  outline: none;
 }
 
 header .group-icons {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 header .icons {
-    margin: 0 4px 0;
-    align-items: center;
+  margin: 0 4px 0;
+  align-items: center;
 }
 
 header #logo {
-    max-width: 92px;
-    height: 30px;
+  max-width: 92px;
+  height: 30px;
 }
 
 header .group-icons svg,
 .group-icons img,
 .google-account-wrapper svg {
-    max-width: 24px;
-    height: 24px;
+  max-width: 24px;
+  height: 24px;
 }
 
 header .google-account-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 header .google-account-wrapper img {
-    max-width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    opacity: 2;
+  max-width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  opacity: 2;
 }
 
 header .google-account {
-    margin: 0 8px 0;
-    align-items: center;
+  margin: 0 8px 0;
+  align-items: center;
 }
 
 /* the CSS main section where everything displayed apart from header(google logo search bar and google account displays) */
 
 main {
-    margin-top: 34px;
+  margin-top: 34px;
 }
 
 /* news , images videos and more categories */
 .categories-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 82%;
-    font-size: 0.9em;
-    margin: 0 auto;
-    padding-right: 438px;
-    padding-left: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 82%;
+  font-size: 0.9em;
+  margin: 0 auto;
+  padding-right: 438px;
+  padding-left: 32px;
 }
 
 .categories-section .anivm {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .categories {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .categories-section a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #5F6368;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #5f6368;
 }
 
 .categories-section .anivm svg {
-    max-width: 16px;
-    height: 16px;
+  max-width: 16px;
+  height: 16px;
 }
 
 .categories span {
-    margin-left: 2px;
+  margin-left: 2px;
 }
 
 .anivm .all {
-    border-bottom: 2px solid #1a73e8;
+  border-bottom: 2px solid #1a73e8;
 }
 
 .anivm #all {
-    color: #1a73e8;
+  color: #1a73e8;
 }
 
 .categories-section-hr {
-    max-width: 100%;
-    height: 0.5px;
-    background-color: #ccc;
+  max-width: 100%;
+  height: 0.5px;
+  background-color: #dadce0;
 }
 
 /* About 168,000,000 results */
 .about-result {
-    color: #5F6368;
-    font-size: 0.9rem;
-    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
-    max-width: 82%;
-    font-weight: 500;
-    font-size: 0.9rem;
-    margin: 12px auto;
+  color: #5f6368;
+  font-size: 0.9rem;
+  font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+  max-width: 82%;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin: 12px auto;
 }
 
 .about-result #result-stats {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 /* C. Ronaldo Title section; contents his name and origin */
 .Title-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 82%;
-    margin: 28px auto 12px;
-    padding-left: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 82%;
+  margin: 28px auto 12px;
+  padding-left: 32px;
 }
 
 .Title-section .name h1 {
-    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    margin-bottom: 4px;
+  font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 4px;
 }
 
 .Title-section .origin {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .Title-section .origin span {
-    color: #5F6368;
-    font-size: 14px;
-    font-weight: 400;
+  color: #5f6368;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .Title-section .name svg {
-    max-width: 16px;
-    height: 16px;
+  max-width: 16px;
+  height: 16px;
 }
 
 .Title-section .about-btn {
-    margin-left: 32px;
-    display: flex;
+  margin-left: 32px;
+  display: flex;
 }
 
 .Title-section .about-btn button {
-    background-color: #E2EEFF;
-    border: none;
-    padding: 11px 19px;
-    border-radius: 100px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    margin: 14px 0 6px 8px;
+  background-color: #e2eeff;
+  border: none;
+  padding: 11px 19px;
+  border-radius: 100px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin: 14px 0 6px 8px;
 }
 
 .Title-section .about-btn button a {
-    text-decoration: none;
-    color: #1a73e8;
+  text-decoration: none;
+  color: #1a73e8;
 }
 
 .Title-section .about-btn button:nth-child(1) {
-    border: 1px solid #1a73e8;
+  border: 1px solid #1a73e8;
 }
 
 .Title-section .about-btn button:active {
-    border: 1px solid #1a73e8;
+  border: 1px solid #1a73e8;
 }
 
 /* cristiano Ronaldo attributes section styling*********** */
 .attribute-section {
-    max-width: 100%;
-    background: linear-gradient(to top, #eef5ff 50%, transparent);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 8px 2px;
+  max-width: 100%;
+  background: linear-gradient(to top, #eef5ff 50%, transparent);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px 2px;
 }
 
 .attribute-section .gallery {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .attribute-section .gtpic {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .attribute-section .fpic img {
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    margin-right: 1px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-right: 1px;
 }
 
 .attribute-section .gtpic img:nth-child(1) {
-    border-top-right-radius: 15px;
-    margin-left: 1px;
-    margin-bottom: 1.6px;
+  border-top-right-radius: 15px;
+  margin-left: 1px;
+  margin-bottom: 1.6px;
 }
 
 .attribute-section .gtpic img:nth-child(2) {
-    border-bottom-right-radius: 15px;
-    margin-left: 1px;
-    margin-top: 1.6px;
+  border-bottom-right-radius: 15px;
+  margin-left: 1px;
+  margin-top: 1.6px;
 }
 
 .attribute-section .sky-sport {
-    max-width: 238.41px;
-    height: 100%;
-    margin-left: 12px;
-    background-color: #fff;
-    font-size: 12px;
-    font-weight: 400;
-    border-radius: 15px;
-    font-family: Google Sans, arial, sans-serif-medium, sans-serif;
+  max-width: 238.41px;
+  height: 100%;
+  margin-left: 12px;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 15px;
+  font-family: Google Sans, arial, sans-serif-medium, sans-serif;
 }
 
 .attribute-section .sky-sport a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: #70757a;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #70757a;
 }
 
 .attribute-section .sky-sport .text-wrapper {
-    padding: 14px;
+  padding: 14px;
 }
 
 .attribute-section .sky-sport .img-wrapper img {
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .attribute-section .sky-sport a p:nth-child(2) {
-    font-size: 14px;
-    color: #202124;
-    line-height: 20px;
-    margin-top: 18px;
+  font-size: 14px;
+  color: #202124;
+  line-height: 20px;
+  margin-top: 18px;
 }
 
 .attribute-section .sky-sport a p:nth-child(3) {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #4d5156;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #4d5156;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 4px;
 }
 
 .attribute-section .sky-sport a p:nth-child(4) {
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 26px;
-    font-family: arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 26px;
+  font-family: arial, sans-serif;
 }
 
 .attribute-section .attribute {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 12px;
 }
 
 .attribute-section .attribute .age-csport {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .attribute .age-csport .age-team {
-    background-color: #E2EEFF;
-    border-radius: 15px;
-    padding: 12px;
-    max-width: 113.19px;
-    height: 139.05px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  background-color: #e2eeff;
+  border-radius: 15px;
+  padding: 12px;
+  max-width: 113.19px;
+  height: 139.05px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .attribute .age-csport .current_team {
-    margin-right: 2px;
+  margin-right: 2px;
 }
 
 .attribute .age-csport .age {
-    margin-left: 2px;
+  margin-left: 2px;
 }
 
 .attribute .age-csport .age-team h1 {
-    font-weight: 500;
-    color: #040C28;
-    font-size: 14px;
+  font-weight: 500;
+  color: #040c28;
+  font-size: 14px;
 }
 
 .attribute .age-csport .age-team p {
-    font-weight: 400;
-    color: #2A4165;
-    font-size: 14px;
-    line-height: 20px;
+  font-weight: 400;
+  color: #2a4165;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .attribute .crist-instahandle {
-    text-decoration: none;
-    font-size: 14px;
-    background-color: #fff;
-    color: #202124;
-    border-radius: 15px;
-    max-width: 238.39px;
-    height: 139.06px;
-    margin-top: 14px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: Google Sans, arial, sans-serif;
-    padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #fff;
+  color: #202124;
+  border-radius: 15px;
+  max-width: 238.39px;
+  height: 139.06px;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Google Sans, arial, sans-serif;
+  padding: 12px;
 }
 
 .attribute .instahandle-img-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: #70757a;
-    font-family: arial, sans-serif;
-    font-weight: 400;
-    line-height: 20px;
-    font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #70757a;
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 12px;
 }
 
 .attribute .crist-instahandle svg {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .attribute .crist-instahandle .instaheadline p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: 400;
-    line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .attribute .crist-instahandle .fofopo {
-    color: #4d5156;
-    font-size: 12px;
-    line-height: 18px;
+  color: #4d5156;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 /* top stories of cristiano Ronaldo----------.......********** */
 .crist-top-stories-section {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: arial, sans-serif;
-    color: #202124;
-    font-size: 14px;
-    margin: 40px 4px 14px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: arial, sans-serif;
+  color: #202124;
+  font-size: 14px;
+  margin: 40px auto 14px;
 }
 
 .crist-top-stories-section .crist-top-stories h1 {
-    font-size: 22px;
-    line-height: 24px;
-    font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 /* top stories of cristiano Ronaldo left side */
 .crist-top-stories-section .news-about-crist {
-    padding-left: 20px;
-    padding-bottom: 20px;
-    max-width: 50%;
-}
-.news-about-crist .News-about-CristianoRonaldopele{
-    display: flex;
-    flex-direction: column;
-}
-.news-about-crist .News-about-CristianoRonaldopele>a{
-   text-decoration: none;
-   color: #4d5156;
-   font-size: 18px;
-   font-weight: 400;
-   padding: 8px 0;
-   margin: 14px 0;
-   border-bottom: 1px solid #dadce0;
-}
-.news-about-crist .News-about-CristianoRonaldopele>a:hover{
-    text-decoration: underline;
-}
-.news-about-crist .News-about-CristianoRonaldopele>a i{
-    margin-left: 4px;
-}
-.news-about-crist .CristianoRonaldopele-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.news-about-crist .CristianoRonaldopele-content>a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #1a0dab;
-    margin-right: 12px;
-    padding-right: 12px;
-    border-right: 1px solid #dadce0;
-}
-.CristianoRonaldopele-content>a .daily-post-img-wrapper img{
-    border-radius: 8px;
-}
-.news-about-crist .CristianoRonaldopele-content>a p:nth-child(3):hover{
-    text-decoration: underline;
-}
-.news-about-crist .CristianoRonaldopele-content>a p:nth-child(4){
-    font-size: 14px;
-    color: #70757a;
-    line-height: 16px;
-}
-.news-about-crist .masky{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.news-about-crist .masky a{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #1a0dab;
-}
-.news-about-crist .masky .masky-text-i p:nth-child(2):hover{
-    text-decoration: underline;
-}
-.news-about-crist .masky .masky-text-i p:nth-child(3){
-    font-size: 14px;
-    color: #70757a;
-    line-height: 16px;
-}
-.news-about-crist .masky a:nth-child(2){
-    border-top: 1px solid #dadce0;
-    padding-top: 16px;
-}
-.news-about-crist .masky .pele-wrapper img, .marca-img-wrapper img{
-    border-radius: 8px;
-}
-.news-about-crist .Eurosport-express{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.news-about-crist .Eurosport-express a{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #1a0dab;
-}
-.news-about-crist .Eurosport-express .marca-icon-wrapper{
-    display: flex;
-    align-items: center;
-} 
-.Eurosport-express .marca-icon-wrapper{
-    color: #202124;
-    font-size: 12.8px;
-}
-.news-about-crist .Eurosport-express .masky-text-i p:nth-child(2):hover{
-    text-decoration: underline;
-}
-.news-about-crist .Eurosport-express .masky-text-i p:nth-child(3){
-    font-size: 14px;
-    color: #70757a;
-    line-height: 16px;
-}
-.news-about-crist .Eurosport-express a:nth-child(2){
-    border-left: 1px solid #dadce0;
-    padding-left: 16px;
-    margin-left: 16px;
-}
-.news-about-crist .Eurosport-express .pele-wrapper img, .marca-img-wrapper img{
-    border-radius: 8px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  max-width: 50%;
 }
 
-/* top stories of cristiano Ronaldo right side */
+.news-about-crist .News-about-CristianoRonaldopele {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-about-crist .News-about-CristianoRonaldopele>a {
+  text-decoration: none;
+  color: #4d5156;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 0;
+  margin: 14px 0;
+  border-bottom: 1px solid #dadce0;
+}
+
+.news-about-crist .News-about-CristianoRonaldopele>a:hover {
+  text-decoration: underline;
+}
+
+.news-about-crist .News-about-CristianoRonaldopele>a i {
+  margin-left: 4px;
+}
+
+.news-about-crist .CristianoRonaldopele-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news-about-crist .CristianoRonaldopele-content>a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1a0dab;
+  margin-right: 12px;
+  padding-right: 12px;
+  border-right: 1px solid #dadce0;
+}
+
+.CristianoRonaldopele-content>a .daily-post-img-wrapper img {
+  border-radius: 8px;
+}
+
+.news-about-crist .CristianoRonaldopele-content>a p:nth-child(3):hover {
+  text-decoration: underline;
+}
+
+.news-about-crist .CristianoRonaldopele-content>a p:nth-child(4) {
+  font-size: 14px;
+  color: #70757a;
+  line-height: 16px;
+}
+
+.news-about-crist .masky {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-about-crist .masky a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1a0dab;
+}
+
+.news-about-crist .masky .masky-text-i p:nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.news-about-crist .masky .masky-text-i p:nth-child(3) {
+  font-size: 14px;
+  color: #70757a;
+  line-height: 16px;
+}
+
+.news-about-crist .masky a:nth-child(2) {
+  border-top: 1px solid #dadce0;
+  padding-top: 16px;
+}
+
+.news-about-crist .masky .pele-wrapper img,
+.marca-img-wrapper img {
+  border-radius: 8px;
+}
+
+.news-about-crist .Eurosport-express {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news-about-crist .Eurosport-express a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1a0dab;
+}
+
+.news-about-crist .Eurosport-express .marca-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Eurosport-express .marca-icon-wrapper {
+  color: #202124;
+  font-size: 12.8px;
+}
+
+.news-about-crist .Eurosport-express .masky-text-i p:nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.news-about-crist .Eurosport-express .masky-text-i p:nth-child(3) {
+  font-size: 14px;
+  color: #70757a;
+  line-height: 16px;
+}
+
+.news-about-crist .Eurosport-express a:nth-child(2) {
+  border-left: 1px solid #dadce0;
+  padding-left: 16px;
+  margin-left: 16px;
+}
+
+.news-about-crist .Eurosport-express .pele-wrapper img,
+.marca-img-wrapper img {
+  border-radius: 8px;
+}
+
+.news-about-crist .more-news-wrapper {
+  position: relative;
+  margin: 34px 0;
+}
+
+.news-about-crist .more-news-linethrough-hr {
+  max-width: 100%;
+  height: 0.5px;
+  background-color: #dadce0;
+}
+
+.news-about-crist .more-news-wrapper .more-news {
+  text-decoration: none;
+  color: #202124;
+  background-color: #f1f3f4;
+  position: absolute;
+  top: -12.8px;
+  left: 38%;
+  padding: 8px 78px;
+  border-radius: 18px;
+}
+
+.news-about-crist .more-news-wrapper .more-news span {
+  margin-left: 4px;
+}
+
+.news-about-crist .more-news-wrapper .more-news:hover {
+  background-color: #dadce0;
+  text-decoration: underline;
+}
+
+/* top stories of cristiano Ronaldo right side styling*/
 .crist-top-stories-section .current-info-about-crist {
-    border-left: 1px solid #dadce0;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 44px;
-    color: #202124;
-    font-size: 14px;
-    font-family: arial, sans-serif;
-    max-width: 30%;
+  border-left: 1px solid #dadce0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-left: 44px;
+  color: #202124;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  max-width: 30%;
 }
 
 .current-info-about-crist .official_web {
-    margin-top: 16px;
-    margin-bottom: 12px;
-    border: 1px solid #dadce0;
-    border-radius: 16px;
-    max-width: 187.17px;
-    padding: 8px 12px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  border: 1px solid #dadce0;
+  border-radius: 16px;
+  max-width: 187.17px;
+  padding: 8px 12px;
 }
 
 .current-info-about-crist .official_web a {
-    text-decoration: none;
-    color: #202124;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  text-decoration: none;
+  color: #202124;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .current-info-about-crist .official_web a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .official_web a img {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .current-info-about-crist .official_wikipedia {
-    line-height: 1.58;
-    color: #4d5156;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  color: #4d5156;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .official_wikipedia a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .official_wikipedia a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .born {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .born span {
-    color: #4d5156;
+  color: #4d5156;
 }
 
 .current-info-about-crist .born a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .born a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .team {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .team a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .team a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .team span {
-    color: #4d5156;
+  color: #4d5156;
 }
 
 .current-info-about-crist .children {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .children a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .children a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .Dates_joined {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .Dates_joined span {
-    color: #4d5156;
+  color: #4d5156;
 }
 
 .current-info-about-crist .Dates_joined a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .Dates_joined a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .Height {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .Height span {
-    color: #4d5156;
+  color: #4d5156;
 }
 
 .current-info-about-crist .salary-GBP-2023 {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .salary-GBP-2023 span {
-    color: #4d5156;
+  color: #4d5156;
 }
 
 .current-info-about-crist .Awards {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .Awards a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .Awards a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .Partner {
-    line-height: 1.58;
-    margin-bottom: 12px;
+  line-height: 1.58;
+  margin-bottom: 12px;
 }
 
 .current-info-about-crist .Partner a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 .current-info-about-crist .Partner a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-info-about-crist .Partner span {
-    color: #4d5156;
+  color: #4d5156;
 }
 
 .current-info-about-crist .clafebk {
-    line-height: 1.58;
-    margin-bottom: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  line-height: 1.58;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .current-info-about-crist .clafebk a {
-    text-decoration: none;
-    color: #4d5156;
+  text-decoration: none;
+  color: #4d5156;
 }
 
 .current-info-about-crist .clafebk a:nth-child(1) {
-    border: 1px solid #dadce0;
-    border-radius: 18px;
-    padding: 6px 16px;
-    align-self: flex-start;
+  border: 1px solid #dadce0;
+  border-radius: 18px;
+  padding: 6px 16px;
+  align-self: flex-start;
 }
 
 .current-info-about-crist .clafebk a .claims-panel {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .clafebk a .claims-panel-text {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .current-info-about-crist .clafebk a:nth-child(2) {
-    font-size: 12px;
-    align-self: flex-end;
+  font-size: 12px;
+  align-self: flex-end;
 }
 
 .current-info-about-crist .social-connec-Profiles {
-    line-height: 1.58;
-    margin-bottom: 16px;
-    border-top: 1px solid #dadce0;
-    margin-top: 16px;
-    padding-top: 16px;
-    display: flex;
-    flex-direction: column;
+  line-height: 1.58;
+  margin-bottom: 16px;
+  border-top: 1px solid #dadce0;
+  margin-top: 16px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .current-info-about-crist .social-connec-Profiles h3 {
-    font-size: 18.8px;
-    line-height: 24px;
-    color: #202124;
-    font-weight: 500;
+  font-size: 18.8px;
+  line-height: 24px;
+  color: #202124;
+  font-weight: 500;
 }
 
 .social-connec-Profiles .social-connec-Profiles-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 14px;
 }
 
 .social-connec-Profiles .social-connec-Profiles-links a {
-    text-decoration: none;
-    color: #202124;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  text-decoration: none;
+  color: #202124;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-connec-Profiles .social-connec-Profiles-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .social-connec-Profiles-links a img {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .current-info-about-crist .statistics {
-    border-top: 1px solid #dadce0;
-    line-height: 1.58;
-    margin-bottom: 12px;
-    padding-top: 28px;
+  border-top: 1px solid #dadce0;
+  line-height: 1.58;
+  margin-bottom: 12px;
+  padding-top: 28px;
 }
 
 .current-info-about-crist .statistics-heading {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .current-info-about-crist .statistics-heading a {
-    text-decoration: none;
-    color: #202124;
+  text-decoration: none;
+  color: #202124;
 }
 
 .statistics-heading a h3 {
-    font-size: 18.8px;
-    line-height: 24px;
-    font-weight: 500;
-    margin-bottom: 18.8px;
+  font-size: 18.8px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 18.8px;
 }
 
 .statistics-heading a:nth-child(2) {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .statistics-table {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .statistics-table tr th {
-    border-bottom: 1px solid #dadce0;
-    color: #70757a;
-    padding: 8px 48px 8px 0;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: left;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+  padding: 8px 48px 8px 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
 }
 
 .statistics-table tr td {
-    padding: 8px 48px 8px 0;
-    border-bottom: 1px solid #dadce0;
+  padding: 8px 48px 8px 0;
+  border-bottom: 1px solid #dadce0;
 }
 
 .statistics-table tr td a {
-    text-decoration: none;
-    color: #202124;
+  text-decoration: none;
+  color: #202124;
 }
 
 .statistics-table tr td a:hover {
-    text-decoration: underline;
-    text-decoration-color: #1a0dab;
+  text-decoration: underline;
+  text-decoration-color: #1a0dab;
 }
 
 .statistics-table tr td a p {
-    color: #70757a;
-    font-size: 12px;
+  color: #70757a;
+  font-size: 12px;
 }
 
 .current-info-about-crist .people-searchalso {
-    margin-top: 26px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
 }
 
 .current-info-about-crist .people-searchalso h3 {
-    font-size: 18.8px;
-    line-height: 24px;
-    font-weight: 500;
-    margin-bottom: 18.8px;
+  font-size: 18.8px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 18.8px;
 }
 
 .current-info-about-crist .people-searchalso-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .current-info-about-crist .people-searchalso-content a {
-    text-decoration: none;
-    color: #202124;
+  text-decoration: none;
+  color: #202124;
 }
 
 .current-info-about-crist .people-searchalso-content a img {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .current-info-about-crist .people-searchalso .see-more {
-    text-align: center;
-    margin-top: 18px;
-    background-color: #f1f3f4;
-    text-decoration: none;
-    color: #202124;
-    border-radius: 18px;
-    padding: 12px 0;
-    margin-top: 24px;
+  text-align: center;
+  margin-top: 18px;
+  background-color: #f1f3f4;
+  text-decoration: none;
+  color: #202124;
+  border-radius: 18px;
+  padding: 12px 0;
+  margin-top: 24px;
 }
 
 .current-info-about-crist .people-searchalso .see-more:hover {
-    background-color: #dadce0;
+  background-color: #dadce0;
+  text-decoration: underline;
 }
 
 .people-searchalso .see-more i {
-    margin-left: 4px;
+  margin-left: 4px;
 }

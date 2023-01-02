@@ -591,9 +591,9 @@ main {
   color: #202124;
   background-color: #f1f3f4;
   position: absolute;
-  top: -12.8px;
-  left: 38%;
-  padding: 8px 78px;
+  top: -18px;
+  left: 28%;
+  padding: 10px 98px;
   border-radius: 18px;
 }
 
@@ -605,7 +605,88 @@ main {
   background-color: #dadce0;
   text-decoration: underline;
 }
+.news-about-crist .C-R_wkipedia{
+  line-height: 1.58;
+  margin-top: 58px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4d5156;
+}
+.news-about-crist .C-R_wkipedia a{
+  text-decoration: none;
+  color: #1a0dab;
+}
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-heading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.C-R_wkipedia .C-R_wkipedia-heading .fspan{
+  color: #202124;
+}
+.C-R_wkipedia-heading .fspan .ifspan{
+  color: #4d5156;
+}
+.C-R_wkipedia .C-R_wkipedia-heading svg{
+  margin-left: 18px;
+}
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-subheading{
+  font-size: 20px;
+  padding: 1px 0;
+}
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-subheading:hover{
+  text-decoration: underline;
+}
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-links-wrapper{
+  padding-top: 1px;
+}
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-links-wrapper a:hover{
+  text-decoration: underline;
+}
+.news-about-crist .FAQ{
+  margin: 30px 0;
+  line-height: 1.58;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.news-about-crist .FAQ h3{
+  font-size: 22px;
+  font-weight: 400;
+  padding: 6px 0;
+  border-bottom: 1px solid #dadce0;
+}
+.news-about-crist .FAQ .FAQ-content{
+  font-size: 16px;
+  font-size: 400;
+  padding: 4px 0;
+  border-bottom: 1px solid #dadce0;
+  margin: 4px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-about-crist .FAQ .FAQ4{
+  padding-bottom: 18px;
+}
+.news-about-crist .FAQ .FAQ-Feedback{
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  color: #70757a;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #fff;
+  padding-left: 16px;
+}
+.news-about-crist .ioa{
+  margin-top: 42px;
+}
 
+.ioa .vipage{
+  color: #70757a;
+}
 /* top stories of cristiano Ronaldo right side styling*/
 .crist-top-stories-section .current-info-about-crist {
   border-left: 1px solid #dadce0;

@@ -605,58 +605,71 @@ main {
   background-color: #dadce0;
   text-decoration: underline;
 }
-.news-about-crist .C-R_wkipedia{
+
+.news-about-crist .C-R_wkipedia {
   line-height: 1.58;
   margin-top: 58px;
   font-weight: 500;
   font-size: 14px;
   color: #4d5156;
 }
-.news-about-crist .C-R_wkipedia a{
+
+.news-about-crist .C-R_wkipedia a {
   text-decoration: none;
   color: #1a0dab;
 }
-.news-about-crist .C-R_wkipedia .C-R_wkipedia-heading{
+
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-heading {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.C-R_wkipedia .C-R_wkipedia-heading .fspan{
+
+.C-R_wkipedia .C-R_wkipedia-heading .fspan {
   color: #202124;
 }
-.C-R_wkipedia-heading .fspan .ifspan{
+
+.C-R_wkipedia-heading .fspan .ifspan {
   color: #4d5156;
 }
-.C-R_wkipedia .C-R_wkipedia-heading svg{
+
+.C-R_wkipedia .C-R_wkipedia-heading svg {
   margin-left: 18px;
 }
-.news-about-crist .C-R_wkipedia .C-R_wkipedia-subheading{
+
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-subheading {
   font-size: 20px;
   padding: 1px 0;
 }
-.news-about-crist .C-R_wkipedia .C-R_wkipedia-subheading:hover{
+
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-subheading:hover {
   text-decoration: underline;
 }
-.news-about-crist .C-R_wkipedia .C-R_wkipedia-links-wrapper{
+
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-links-wrapper {
   padding-top: 1px;
 }
-.news-about-crist .C-R_wkipedia .C-R_wkipedia-links-wrapper a:hover{
+
+.news-about-crist .C-R_wkipedia .C-R_wkipedia-links-wrapper a:hover {
   text-decoration: underline;
 }
-.news-about-crist .FAQ{
+
+.news-about-crist .FAQ {
   margin: 30px 0;
   line-height: 1.58;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.news-about-crist .FAQ h3{
+
+.news-about-crist .FAQ h3 {
   font-size: 22px;
   font-weight: 400;
   padding: 6px 0;
   border-bottom: 1px solid #dadce0;
 }
-.news-about-crist .FAQ .FAQ-content{
+
+.news-about-crist .FAQ .FAQ-content {
   font-size: 16px;
   font-size: 400;
   padding: 4px 0;
@@ -667,10 +680,12 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-.news-about-crist .FAQ .FAQ4{
+
+.news-about-crist .FAQ .FAQ4 {
   padding-bottom: 18px;
 }
-.news-about-crist .FAQ .FAQ-Feedback{
+
+.news-about-crist .FAQ .FAQ-Feedback {
   position: absolute;
   bottom: -4px;
   right: 0;
@@ -680,23 +695,168 @@ main {
   background-color: #fff;
   padding-left: 16px;
 }
-.news-about-crist .ioa{
+
+.news-about-crist .ofp {
   margin-top: 42px;
 }
 
-.ioa .vipage{
+.news-about-crist .ofp .vipage {
   color: #70757a;
 }
+
+.news-about-crist .ioa {
+  margin-top: 32px;
+  padding-right: 8px;
+}
+
+.news-about-crist .Mirror-website {
+  margin-top: 32px;
+  padding-right: 36px;
+}
+
+.news-about-crist .Mirror-website .Net-Boots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 200px;
+}
+
+.Mirror-website .Net-Boots span:nth-child(2) {
+  color: #70757a;
+}
+
+.news-about-crist .Transfermarkt {
+  margin-top: 32px;
+  padding-right: 28px;
+}
+
+.news-about-crist .Video-Stories-wrapper {
+  line-height: 1.58;
+  margin: 38px 0 58px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-about-crist .Video-Stories-wrapper .VideosStories-li {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  color: #202124;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+
+.news-about-crist .Video-Stories-wrapper .VideosStories-li:hover {
+  color: #1a0dab;
+}
+
+.Video-Stories-wrapper .VideosStories-li span {
+  margin-right: 8px;
+}
+
+.news-about-crist .Video-Stories-wrapper .Video-Stories-content {
+  padding: 14px 0;
+  border-top: 1px solid #dadce0;
+}
+
+.Video-Stories-wrapper .Video-Stories-content img {
+  border-radius: 4px;
+}
+
+.Video-Stories-wrapper .Video-Stories-content a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Video-Stories-wrapper .Video-Stories-content .Stories {
+  margin-left: 16px;
+}
+
+.Video-Stories-wrapper .Video-Stories-content .SkySports-SkySs-head {
+  color: #1a0dab;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
+.Video-Stories-content .SkySports-SkySs-head:hover {
+  text-decoration: underline;
+}
+
+.Video-Stories-wrapper .SkySports-SkySs-subhead {
+  color: #70757a;
+}
+
+.Video-Stories-wrapper .SkySports-SkySs-subhead span {
+  color: #202124;
+}
+
+.news-about-crist .Video-Stories-wrapper .View_all-wrapper {
+  position: relative;
+  font-weight: 500;
+}
+
+.Video-Stories-wrapper .View_all-wrapper .horizontal-line {
+  background-color: #dadce0;
+  height: 1px;
+  margin-top: 14px;
+}
+
+.Video-Stories-wrapper .View_all-wrapper .View_all {
+  position: absolute;
+  bottom: -18px;
+  left: 30%;
+  text-decoration: none;
+  background-color: #f1f3f4;
+  color: #202124;
+  padding: 8px 118px;
+  border-radius: 18px;
+}
+
+.Video-Stories-wrapper .View_all-wrapper .View_all:hover {
+  background-color: #dadce0;
+}
+
+.Video-Stories-wrapper .View_all-wrapper .View_all i {
+  margin-left: 8px;
+}
+
+.news-about-crist .ioa .Marca-latestimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 0 6px;
+}
+
+.news-about-crist .ioa .Marca-latestimg img {
+  margin-right: 4px;
+}
+
+.news-about-crist .ioa .Marca-latestimg img:nth-child(1) {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.news-about-crist .ioa .Marca-latestimg img:nth-child(4) {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 /* top stories of cristiano Ronaldo right side styling*/
 .crist-top-stories-section .current-info-about-crist {
   border-left: 1px solid #dadce0;
+  height: 100%;
   padding-left: 20px;
   padding-bottom: 20px;
   margin-left: 44px;
+  margin-bottom: 4px;
   color: #202124;
   font-size: 14px;
   font-family: arial, sans-serif;
-  max-width: 30%;
+  max-width: 26%;
 }
 
 .current-info-about-crist .official_web {

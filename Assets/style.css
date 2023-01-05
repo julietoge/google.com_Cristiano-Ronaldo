@@ -845,6 +845,120 @@ main {
   border-bottom-right-radius: 8px;
 }
 
+.news-about-crist .related-search-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 34px 0;
+  line-height: 1.58;
+}
+
+.news-about-crist .related-search-wrapper .related-search-heading {
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #dadce0;
+  padding-bottom: 4px;
+  margin-bottom: 14px;
+}
+
+.related-search-wrapper .related-search-heading svg {
+  margin-left: 16px;
+}
+
+.news-about-crist .related-search-wrapper .Portugal-strikers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 18px;
+}
+
+.news-about-crist .related-search-wrapper .related-search-people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.related-search-wrapper .related-search-people a {
+  text-decoration: none;
+  color: #202124;
+}
+
+.related-search-wrapper .related-search-people a img {
+  border-radius: 8px;
+}
+
+.related-search-wrapper .related-search-people a:hover {
+  text-decoration: underline;
+}
+
+.related-search-wrapper .related-searchsee-more {
+  text-align: center;
+  margin-top: 22px;
+}
+
+.related-search-wrapper .related-searchsee-more a {
+  text-decoration: none;
+  color: #202124;
+  background-color: #f1f3f4;
+  padding: 12px 118px;
+  border-radius: 18px;
+}
+
+.related-search-wrapper .related-searchsee-more a:hover {
+  background-color: #dadce0;
+}
+
+.related-search-wrapper .related-searchsee-more a i {
+  margin-left: 8px;
+}
+
+.related-search-wrapper .hori-feed {
+  margin-top: 38px;
+  position: relative;
+}
+
+.related-search-wrapper .Portugal-roster-horizontalline {
+  background-color: #dadce0;
+  height: 1px;
+}
+
+.related-search-wrapper .Portugal-roster-Feedback {
+  text-decoration: none;
+  color: #70757a;
+  padding-left: 10px;
+  font-size: 12px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: -8px;
+}
+
+.related-search-wrapper .Portugal-roster-Feedback:hover {
+  text-decoration: underline;
+}
+
+.news-about-crist .google-1to10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.news-about-crist .google-1to10 a{
+  text-decoration: none;
+}
+.news-about-crist .google-1to10 a div:nth-child(2){
+  color: #4285f4;
+}
+.news-about-crist .google-1to10 a .a1{
+color: #202124;
+}
 /* top stories of cristiano Ronaldo right side styling*/
 .crist-top-stories-section .current-info-about-crist {
   border-left: 1px solid #dadce0;

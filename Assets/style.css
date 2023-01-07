@@ -949,16 +949,74 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 18px 0;
 }
-.news-about-crist .google-1to10 a{
+
+.news-about-crist .google-1to10 td {
+  text-align: center;
+}
+
+.news-about-crist .google-1to10 a {
   text-decoration: none;
 }
-.news-about-crist .google-1to10 a div:nth-child(2){
+
+.news-about-crist .google-1to10 a div:nth-child(1),
+.go-wrapper .go {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.go-wrapper .go span:nth-child(1) {
   color: #4285f4;
 }
-.news-about-crist .google-1to10 a .a1{
-color: #202124;
+
+.go-wrapper .go span:nth-child(2) {
+  color: rgb(209, 50, 50);
 }
+
+.news-about-crist .google-1to10 a .o {
+  color: yellow;
+}
+
+.google-1to10 .gle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.google-1to10 .gle span:nth-child(1) {
+  color: #4285f4;
+}
+
+.google-1to10 .gle span:nth-child(2) {
+  color: green;
+}
+
+.google-1to10 .gle span:nth-child(3) {
+  color: rgb(209, 50, 50);
+}
+
+.google-1to10 .gle span:nth-child(4) {
+  font-size: 14px;
+  margin-left: 14px;
+  color: #4285f4;
+}
+
+.news-about-crist .google-1to10 a div:nth-child(2) {
+  color: #4285f4;
+
+}
+
+.news-about-crist .google-1to10 a div:nth-child(2):hover {
+  text-decoration: underline;
+  text-decoration-color: #202124;
+}
+
+.news-about-crist .google-1to10 .Next {
+  margin-left: 50px;
+}
+
+
 /* top stories of cristiano Ronaldo right side styling*/
 .crist-top-stories-section .current-info-about-crist {
   border-left: 1px solid #dadce0;
@@ -1332,3 +1390,5 @@ color: #202124;
 .people-searchalso .see-more i {
   margin-left: 4px;
 }
+
+/* footer is always displayed at the bottom of a webpage: the css styling */

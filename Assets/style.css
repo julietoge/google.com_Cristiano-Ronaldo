@@ -1394,25 +1394,23 @@ main {
 /* footer is always displayed at the bottom of a webpage: the css styling */
 footer {
   background-color: #f1f3f4;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding: 8px 0;
   color: #70757a;
   font-size: 14px;
 }
 
 .footer-content {
-  line-height: 1.58;
+  line-height: 2.58;
   display: flex;
   flex-direction: column;
+  justify-content: left;
 }
 
 footer .NigObo {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid #dadce0;
-  margin-bottom: 8px;
-  padding-bottom: 8px;
+  padding-left: 11.4%;
 }
 
 footer .NigObo .Nigeria {
@@ -1446,13 +1444,23 @@ footer .NigObo .Based {
   color: #1a0dab;
 }
 
+.footer-horizontal-line {
+  height: 1px;
+  background-color: #dadce0;
+}
+
 footer .hesefepte {
   display: flex;
   flex-direction: row;
+  padding-left: 11.4%;
 }
 
 footer .hesefepte a {
   text-decoration: none;
   color: #70757a;
-  margin-right: 8px;
+  margin-right: 12px;
+}
+
+footer .hesefepte a:hover {
+  text-decoration: underline;
 }
